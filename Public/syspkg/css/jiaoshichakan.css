@@ -1,0 +1,394 @@
+.body
+        {
+
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 1);
+
+        }
+        .marxism
+        {
+            left: float;
+
+            width: 13.9%;
+            height: 60px;
+            line-height: 29px;
+            background-color: rgba(188, 47, 46, 1);
+            color: rgba(255, 255, 255, 1);
+            font-size: 25px;
+            text-align: center;
+            font-family: Roboto;
+
+    }
+        .head
+        {
+            position: fixed;
+            left: 13.9%;
+            top: 0px;
+            width: 86.1%;
+            height: 60px;
+            line-height: 20px;
+            text-align: center;
+            box-shadow: 0px 0px 2px 0px rgba(170, 170, 170, 1);
+
+        }
+        .imgView
+        {
+            position: fixed;
+            right: 160px;
+            top: 12px;
+            width: 37px;
+            height: 37px;
+            border-radius: 100px;
+            color: black;
+
+
+        }
+        .nameOfTeacher
+        {
+            position: fixed;
+            right: 82px;
+            top: 19px;
+            width: 57px;
+            height: 23px;
+            line-height: 20px;
+            color: rgba(71, 71, 71, 1);
+            font-size: 14px;
+            text-align: center;
+            font-family: Roboto;
+
+
+        }
+        .iconBlack
+        {
+            position: fixed;
+            right: 45px;
+            top: 21px;
+            width: 24px;
+            height: 24px;
+            color: black;
+
+
+        }
+        .nave
+        {
+            position: fixed;
+            left: 0px;
+            top: 60px;
+            width: 13.9%;
+            height: 964px;
+            line-height: 20px;
+            background-color: rgba(82, 82, 82, 1);
+            text-align: center;
+
+        }
+        .main
+        {
+            position: fixed;
+            left: 17.4%;
+            top: 100px;
+            width: 78%;
+        }
+        .home
+        {
+            
+            width: 121px;
+            height: 35px;
+            line-height: 35px;
+            color: rgba(16, 16, 16, 1);
+            font-size: 24px;
+            text-align: center;
+            font-family: Roboto;
+
+        }
+        .teacher
+        {
+            position: relative;
+            
+            top: -25px;
+            width: 424px;
+            height: 23px;
+            line-height: 19px;
+            color: rgba(170, 170, 170, 1);
+            font-size: 13px;
+            text-align: center;
+            font-family: Roboto;
+
+        }
+        .time
+        {
+            position: relative;
+            
+            left: -10px;
+            width: 100px;
+            height: 23px;
+            line-height: 23px;
+            color: rgba(16, 16, 16, 1);
+            font-size: 16px;
+            text-align: center;
+            font-family: Roboto;
+
+        }
+        .time_select
+        {
+            float: left;
+            
+           
+
+            color: rgba(16, 16, 16, 1);
+
+            font-family: Microsoft Yahei;
+            border: 1px solid rgba(187, 187, 187, 1);
+            border-radius: 10px;
+            border: 0px;
+
+        }
+        .hr0
+        {
+           position: relative;
+            height: 12px;
+
+        }
+        .rounded_rect11
+        {
+            float: left;
+            margin-top: 0px;
+            padding: 0px;
+            width: 65%;
+            height: 175px;
+            line-height: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 1);
+            color: rgba(16, 16, 16, 1);
+            font-size: 14px;
+            text-align: center;
+            box-shadow: 0px 0px 3px 0px rgba(54, 53, 54, 1);
+            font-family: Roboto;
+
+        }
+        .hr1
+        {
+           position: relative;
+            
+            width: 100%;
+            height: 10px;
+
+        }
+        .rounded_rect12
+        {
+            float: left;
+            margin-top: 0px;
+            margin-left: 100px;
+            width: 13%;
+            height: 175px;
+            line-height: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 1);
+            color: rgba(16, 16, 16, 1);
+            font-size: 14px;
+            text-align: center;
+            box-shadow: 0px 0px 3px 0px rgba(54, 53, 54, 1);
+            font-family: Roboto;
+
+        }
+         .excel1
+        {
+            margin-top:80px;
+        }
+        .rounded_rect21
+        {
+            float: left;
+            margin-top: 25px;
+            padding: 0px;
+            width: 65%;
+            height: 245px;
+            line-height: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 1);
+            color: rgba(16, 16, 16, 1);
+            font-size: 14px;
+            text-align: center;
+            box-shadow: 0px 0px 3px 0px rgba(54, 53, 54, 1);
+            font-family: Roboto;
+
+        }
+        .hr2
+        {
+           position: relative;
+
+            width: 100%;
+            height: 10px;
+
+        }
+        .rounded_rect22
+        {
+            float: left;
+            margin-top: 25px;
+            margin-left: 100px;
+            width: 13%;
+            height: 245px;
+            line-height: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 1);
+            color: rgba(16, 16, 16, 1);
+            font-size: 14px;
+            text-align: center;
+            box-shadow: 0px 0px 3px 0px rgba(54, 53, 54, 1);
+            font-family: Roboto;
+
+        }
+        .excel2
+        {
+            margin-top:110px;
+        }
+        .rounded_rect31
+        {
+            float: left;
+            margin-top: 25px;
+            padding: 0px;
+            width: 65%;
+            height: 145px;
+            line-height: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 1);
+            color: rgba(16, 16, 16, 1);
+            font-size: 14px;
+            text-align: center;
+            box-shadow: 0px 0px 3px 0px rgba(54, 53, 54, 1);
+            font-family: Roboto;
+
+        }
+        .hr3
+        {
+           position: relative;
+
+            width: 100%;
+            height: 10px;
+
+        }
+        .rounded_rect32
+        {
+            float: left;
+            margin-top: 25px;
+            margin-left: 100px;
+            width: 13%;
+            height: 145px;
+            line-height: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 1);
+            color: rgba(16, 16, 16, 1);
+            font-size: 14px;
+            text-align: center;
+            box-shadow: 0px 0px 3px 0px rgba(54, 53, 54, 1);
+            font-family: Roboto;
+
+        }
+         .excel3
+        {
+            margin-top:65px;
+        }
+        .tdHead
+        {
+            padding-top:10px; 
+            color: rgba(16, 16, 16, 1);
+            font-size: 18px;
+            text-align: center;
+            font-family: Roboto;
+            font-weight: bold;
+        }
+        .tdRest
+        {
+            padding-top:10px; 
+            color: rgba(16, 16, 16, 1);
+            font-size: 14px;
+            text-align: center;
+            font-family: Roboto;
+
+        }
+        .b{
+            margin-top: -20px;
+            float: left;
+            left: px;
+            top: px;
+            width: 100px;
+            height: 41px;
+            margin-right: 10px;
+            line-height: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 1);
+            color: rgba(188, 47, 46, 1);
+            font-size: 14px;
+            text-align: center;
+            box-shadow: 0px 0px 3px 0px rgba(188, 47, 46, 1);
+            font-family: Roboto;
+            border: 1px solid rgba(188, 47, 46, 1);
+
+        }
+        .add{
+            float: left;
+            width: 100px;
+            height: 41px;
+            margin-top: -20px;
+            margin-left: 10px;
+            line-height: 20px;
+            border-radius: 10px;
+            background-color: rgba(219, 157, 64, 1);
+            color: rgba(255, 255, 255, 1);
+            font-size: 14px;
+            text-align: center;
+            box-shadow: 0px 0px 3px 0px rgba(170, 170, 170, 1);
+            font-family: Roboto;
+            border: 3px solid rgba(219, 157, 64, 1);
+
+        }
+        table
+        {   
+            float: left;
+            width: 90%;
+            height: 518px;
+            margin-top: 20px;
+            line-height: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 1);
+            text-align: center;
+            border-collapse: separate;
+            border: 2px solid rgba(54, 53, 54, 1);
+        }
+        thead
+        {
+            height:56px;
+            width: 86px;
+            height: 50px;
+            line-height: 26px;
+            color: rgba(54, 53, 54, 1);
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            font-family: Roboto;
+
+        }
+        table tr th,table tr td {
+            border-right: 1px solid #555555 ;
+            border-bottom: 1px solid #555555 ;
+            padding: 25px;
+}
+        tbody
+        {
+
+            width: 253px;
+            height: 34px;
+            line-height: 20px;
+            color: rgba(54, 53, 54, 1);
+            font-size: 14px;
+            text-align: center;
+            font-family: Roboto;
+
+        }
+        button.b:focus
+        {
+
+            background-color: rgba(188, 47, 46, 1);
+            color: rgba(255, 255, 255, 1);
+
+
+        }

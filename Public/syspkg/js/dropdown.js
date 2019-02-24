@@ -1,0 +1,472 @@
+var part = 1;
+
+function ddChange2()
+{
+	  var optionss=$("#dDown1 option:selected");//获取当前选择项.
+	  if(optionss.val()=="已通过")
+	  {
+	  	 part=1;
+	  	$("#part1").show();
+        $("#part2").hide();
+        $("#part3").hide();
+      
+	  }else if(optionss.val()=="待审核")
+	  {
+	  	part=2;
+	  	$("#part2").show();
+        $("#part1").hide();
+        $("#part3").hide();
+         
+	  }else if(optionss.val()=="未通过")
+	  {
+	  	part=3;
+	  	$("#part3").show();
+        $("#part2").hide();
+        $("#part1").hide();
+         
+	  }
+	  ddChange();
+}
+
+
+function ddChange(){
+    var options=$("#dDown2 option:selected");//获取当前选择项.
+    if(part==1){
+    if(options.val()=="教学成果奖")
+    {
+        $("#table1").show();
+        $("#table2").hide();
+        $("#table3").hide();
+        $("#table4").hide();
+        $("#table5").hide();
+        $("#table6").hide();
+        $("#table7").hide();
+        $("#table8").hide();
+        $("#table9").hide();
+        $("#table10").hide();
+        $("#table11").hide();
+    }else if(options.val()=="教改立项/精品课程类")
+    {
+        $("#table2").show();
+        $("#table1").hide();
+        $("#table3").hide();
+        $("#table4").hide();
+        $("#table5").hide();
+        $("#table6").hide();
+        $("#table7").hide();
+        $("#table8").hide();
+        $("#table9").hide();
+        $("#table10").hide();
+        $("#table11").hide();
+    }else if(options.val()=="教材出版")
+    {
+        $("#table3").show();
+        $("#table1").hide();
+        $("#table2").hide();
+        $("#table4").hide();
+        $("#table5").hide();
+        $("#table6").hide();
+        $("#table7").hide();
+        $("#table8").hide();
+        $("#table9").hide();
+        $("#table10").hide();
+        $("#table11").hide();
+    }else if(options.val()=="论文发表")
+    {
+        $("#table4").show();
+        $("#table1").hide();
+        $("#table3").hide();
+        $("#table2").hide();
+        $("#table5").hide();
+        $("#table6").hide();
+        $("#table7").hide();
+        $("#table8").hide();
+        $("#table9").hide();
+        $("#table10").hide();
+        $("#table11").hide();
+    }else if(options.val()=="学术专著/译著出版")
+    {
+        $("#table5").show();
+        $("#table1").hide();
+        $("#table3").hide();
+        $("#table4").hide();
+        $("#table2").hide();
+        $("#table6").hide();
+        $("#table7").hide();
+        $("#table8").hide();
+        $("#table9").hide();
+        $("#table10").hide();
+        $("#table11").hide();
+    }else if(options.val()=="科研成果奖")
+    {
+        $("#table6").show();
+        $("#table1").hide();
+        $("#table3").hide();
+        $("#table4").hide();
+        $("#table5").hide();
+        $("#table2").hide();
+        $("#table7").hide();
+        $("#table8").hide();
+        $("#table9").hide();
+        $("#table10").hide();
+        $("#table11").hide();
+    }else if(options.val()=="主持科研项目")
+    {
+        $("#table7").show();
+        $("#table1").hide();
+        $("#table3").hide();
+        $("#table4").hide();
+        $("#table5").hide();
+        $("#table6").hide();
+        $("#table2").hide();
+        $("#table8").hide();
+        $("#table9").hide();
+        $("#table10").hide();
+        $("#table11").hide();
+    }else if(options.val()=="基金类")
+    {
+        $("#table8").show();
+        $("#table1").hide();
+        $("#table3").hide();
+        $("#table4").hide();
+        $("#table5").hide();
+        $("#table6").hide();
+        $("#table7").hide();
+        $("#table2").hide();
+        $("#table9").hide();
+        $("#table10").hide();
+        $("#table11").hide();
+    }else if(options.val()=="国际交流")
+    {
+        $("#table9").show();
+        $("#table1").hide();
+        $("#table3").hide();
+        $("#table4").hide();
+        $("#table5").hide();
+        $("#table6").hide();
+        $("#table7").hide();
+        $("#table8").hide();
+        $("#table2").hide();
+        $("#table10").hide();
+        $("#table11").hide();
+    }else if(options.val()=="公益活动")
+    {
+        $("#table10").show();
+        $("#table1").hide();
+        $("#table3").hide();
+        $("#table4").hide();
+        $("#table5").hide();
+        $("#table6").hide();
+        $("#table7").hide();
+        $("#table8").hide();
+        $("#table9").hide();
+        $("#table2").hide();
+        $("#table11").hide();
+    }else if(options.val()=="新闻记录")
+    {
+        $("#table11").show();
+        $("#table1").hide();
+        $("#table3").hide();
+        $("#table4").hide();
+        $("#table5").hide();
+        $("#table6").hide();
+        $("#table7").hide();
+        $("#table8").hide();
+        $("#table9").hide();
+        $("#table2").hide();
+        $("#table10").hide();
+    }
+    }else if(part==2)
+    {
+    	 if(options.val()=="教学成果奖")
+    {
+        $("#table12").show();
+        $("#table22").hide();
+        $("#table32").hide();
+        $("#table42").hide();
+        $("#table52").hide();
+        $("#table62").hide();
+        $("#table72").hide();
+        $("#table82").hide();
+        $("#table92").hide();
+        $("#table102").hide();
+        $("#table112").hide();
+    }else if(options.val()=="教改立项/精品课程类")
+    {
+        $("#table22").show();
+        $("#table12").hide();
+        $("#table32").hide();
+        $("#table42").hide();
+        $("#table52").hide();
+        $("#table62").hide();
+        $("#table72").hide();
+        $("#table82").hide();
+        $("#table92").hide();
+        $("#table102").hide();
+        $("#table112").hide();
+    }else if(options.val()=="教材出版")
+    {
+        $("#table32").show();
+        $("#table12").hide();
+        $("#table22").hide();
+        $("#table42").hide();
+        $("#table52").hide();
+        $("#table62").hide();
+        $("#table72").hide();
+        $("#table82").hide();
+        $("#table92").hide();
+        $("#table102").hide();
+        $("#table112").hide();
+    }else if(options.val()=="论文发表")
+    {
+        $("#table42").show();
+        $("#table12").hide();
+        $("#table32").hide();
+        $("#table22").hide();
+        $("#table52").hide();
+        $("#table62").hide();
+        $("#table72").hide();
+        $("#table82").hide();
+        $("#table92").hide();
+        $("#table102").hide();
+        $("#table112").hide();
+    }else if(options.val()=="学术专著/译著出版")
+    {
+        $("#table52").show();
+        $("#table12").hide();
+        $("#table32").hide();
+        $("#table42").hide();
+        $("#table22").hide();
+        $("#table62").hide();
+        $("#table72").hide();
+        $("#table82").hide();
+        $("#table92").hide();
+        $("#table102").hide();
+        $("#table112").hide();
+    }else if(options.val()=="科研成果奖")
+    {
+        $("#table62").show();
+        $("#table12").hide();
+        $("#table32").hide();
+        $("#table42").hide();
+        $("#table52").hide();
+        $("#table22").hide();
+        $("#table72").hide();
+        $("#table82").hide();
+        $("#table92").hide();
+        $("#table102").hide();
+        $("#table112").hide();
+    }else if(options.val()=="主持科研项目")
+    {
+        $("#table72").show();
+        $("#table12").hide();
+        $("#table32").hide();
+        $("#table42").hide();
+        $("#table52").hide();
+        $("#table62").hide();
+        $("#table22").hide();
+        $("#table82").hide();
+        $("#table92").hide();
+        $("#table102").hide();
+        $("#table112").hide();
+    }else if(options.val()=="基金类")
+    {
+        $("#table82").show();
+        $("#table12").hide();
+        $("#table32").hide();
+        $("#table42").hide();
+        $("#table52").hide();
+        $("#table62").hide();
+        $("#table72").hide();
+        $("#table22").hide();
+        $("#table92").hide();
+        $("#table102").hide();
+        $("#table112").hide();
+    }else if(options.val()=="国际交流")
+    {
+        $("#table92").show();
+        $("#table12").hide();
+        $("#table32").hide();
+        $("#table42").hide();
+        $("#table52").hide();
+        $("#table62").hide();
+        $("#table72").hide();
+        $("#table82").hide();
+        $("#table22").hide();
+        $("#table102").hide();
+        $("#table112").hide();
+    }else if(options.val()=="公益活动")
+    {
+        $("#table102").show();
+        $("#table12").hide();
+        $("#table32").hide();
+        $("#table42").hide();
+        $("#table52").hide();
+        $("#table62").hide();
+        $("#table72").hide();
+        $("#table82").hide();
+        $("#table92").hide();
+        $("#table22").hide();
+        $("#table112").hide();
+    }else if(options.val()=="新闻记录")
+    {
+        $("#table112").show();
+        $("#table12").hide();
+        $("#table32").hide();
+        $("#table42").hide();
+        $("#table52").hide();
+        $("#table62").hide();
+        $("#table72").hide();
+        $("#table82").hide();
+        $("#table92").hide();
+        $("#table22").hide();
+        $("#table102").hide();
+    }
+    }else if(part==3)
+    {
+    	 if(options.val()=="教学成果奖")
+    {
+        $("#table13").show();
+        $("#table23").hide();
+        $("#table33").hide();
+        $("#table43").hide();
+        $("#table53").hide();
+        $("#table63").hide();
+        $("#table73").hide();
+        $("#table83").hide();
+        $("#table93").hide();
+        $("#table103").hide();
+        $("#table113").hide();
+    }else if(options.val()=="教改立项/精品课程类")
+    {
+        $("#table23").show();
+        $("#table13").hide();
+        $("#table33").hide();
+        $("#table43").hide();
+        $("#table53").hide();
+        $("#table63").hide();
+        $("#table73").hide();
+        $("#table83").hide();
+        $("#table93").hide();
+        $("#table103").hide();
+        $("#table113").hide();
+    }else if(options.val()=="教材出版")
+    {
+        $("#table33").show();
+        $("#table13").hide();
+        $("#table23").hide();
+        $("#table43").hide();
+        $("#table53").hide();
+        $("#table63").hide();
+        $("#table73").hide();
+        $("#table83").hide();
+        $("#table93").hide();
+        $("#table103").hide();
+        $("#table113").hide();
+    }else if(options.val()=="论文发表")
+    {
+        $("#table43").show();
+        $("#table13").hide();
+        $("#table33").hide();
+        $("#table23").hide();
+        $("#table53").hide();
+        $("#table63").hide();
+        $("#table73").hide();
+        $("#table83").hide();
+        $("#table93").hide();
+        $("#table103").hide();
+        $("#table113").hide();
+    }else if(options.val()=="学术专著/译著出版")
+    {
+        $("#table53").show();
+        $("#table13").hide();
+        $("#table33").hide();
+        $("#table43").hide();
+        $("#table23").hide();
+        $("#table63").hide();
+        $("#table73").hide();
+        $("#table83").hide();
+        $("#table93").hide();
+        $("#table103").hide();
+        $("#table113").hide();
+    }else if(options.val()=="科研成果奖")
+    {
+        $("#table63").show();
+        $("#table13").hide();
+        $("#table33").hide();
+        $("#table43").hide();
+        $("#table53").hide();
+        $("#table23").hide();
+        $("#table73").hide();
+        $("#table83").hide();
+        $("#table93").hide();
+        $("#table103").hide();
+        $("#table113").hide();
+    }else if(options.val()=="主持科研项目")
+    {
+        $("#table73").show();
+        $("#table13").hide();
+        $("#table33").hide();
+        $("#table43").hide();
+        $("#table53").hide();
+        $("#table63").hide();
+        $("#table23").hide();
+        $("#table83").hide();
+        $("#table93").hide();
+        $("#table103").hide();
+        $("#table113").hide();
+    }else if(options.val()=="基金类")
+    {
+        $("#table83").show();
+        $("#table13").hide();
+        $("#table33").hide();
+        $("#table43").hide();
+        $("#table53").hide();
+        $("#table63").hide();
+        $("#table73").hide();
+        $("#table23").hide();
+        $("#table93").hide();
+        $("#table103").hide();
+        $("#table113").hide();
+    }else if(options.val()=="国际交流")
+    {
+        $("#table93").show();
+        $("#table13").hide();
+        $("#table33").hide();
+        $("#table43").hide();
+        $("#table53").hide();
+        $("#table63").hide();
+        $("#table73").hide();
+        $("#table83").hide();
+        $("#table23").hide();
+        $("#table103").hide();
+        $("#table113").hide();
+    }else if(options.val()=="公益活动")
+    {
+        $("#table103").show();
+        $("#table13").hide();
+        $("#table33").hide();
+        $("#table43").hide();
+        $("#table53").hide();
+        $("#table63").hide();
+        $("#table73").hide();
+        $("#table83").hide();
+        $("#table93").hide();
+        $("#table2").hide();
+        $("#table113").hide();
+    }else if(options.val()=="新闻记录")
+    {
+        $("#table113").show();
+        $("#table13").hide();
+        $("#table33").hide();
+        $("#table43").hide();
+        $("#table53").hide();
+        $("#table63").hide();
+        $("#table73").hide();
+        $("#table83").hide();
+        $("#table93").hide();
+        $("#table23").hide();
+        $("#table103").hide();
+    }
+    }
+}

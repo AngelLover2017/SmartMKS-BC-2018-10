@@ -1,0 +1,147 @@
+[ 2018-10-01T00:49:03+08:00 ] 127.0.0.1 /MKSYS/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012988s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.434845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.434945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030709s ]
+
+[ 2018-10-01T01:00:39+08:00 ] 127.0.0.1 /MKSYS/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-10-01T01:00:58+08:00 ] 127.0.0.1 /mksys/index.php?s=/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL:  select auth from think_login where id = '2016303117' and pd = '123456'  [ RunTime:0.2318s ]
+NOTIC: [8] Use of undefined constant auth - assumed 'auth' D:\Nginx+PHP+Mysql\nginx\html\MKSYS\MKS\Home\Controller\IndexController.class.php 第 24 行.
+SQL: select name from think_user_info where id='2016303117'  [ RunTime:0.0369s ]
+NOTIC: [8] Undefined offset: 0 D:\Nginx+PHP+Mysql\nginx\html\MKSYS\MKS\Home\Controller\IndexController.class.php 第 43 行.
+
+[ 2018-10-01T01:00:58+08:00 ] 127.0.0.1 /mksys/index.php?s=/home/admin/superadmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [2048] Declaration of Home\Controller\AdminController::get() should be compatible with Think\Controller::get($name = '') D:\Nginx+PHP+Mysql\nginx\html\MKSYS\MKS\Home\Controller\AdminController.class.php 第 1683 行.
+SQL: select count(*) from think_map_status where status='YES' and ptype like 'teach_%'  [ RunTime:0.1034s ]
+SQL: select count(*) from think_map_status where status='YES' and ptype='teach_ach'  [ RunTime:0.0003s ]
+SQL: select count(*) from think_map_status where status='YES' and ptype='teach_tbp'  [ RunTime:0.0002s ]
+SQL: select count(*) from think_map_status where status='YES' and ptype='teach_pro'  [ RunTime:0.0002s ]
+SQL: select count(*) from think_map_status where status='YES' and ptype like 'research_%'  [ RunTime:0.0002s ]
+SQL: select count(*) from think_map_status where status='YES' and ptype='research_pap'  [ RunTime:0.0002s ]
+SQL: select count(*) from think_map_status where status='YES' and ptype='research_mpb'  [ RunTime:0.0002s ]
+SQL: select count(*) from think_map_status where status='YES' and ptype='research_pro'  [ RunTime:0.0002s ]
+SQL: select count(*) from think_map_status where status='YES' and ptype='research_ach'  [ RunTime:0.0002s ]
+SQL: select count(*) from think_map_status where status='YES' and ptype='research_fund'  [ RunTime:0.0002s ]
+SQL: select count(*) from think_map_status where status='YES' and ptype like 'other_%'  [ RunTime:0.0002s ]
+SQL: select count(*) from think_map_status where status='YES' and ptype like 'other_exc'  [ RunTime:0.0002s ]
+SQL: select count(*) from think_map_status where status='YES' and ptype like 'other_wel'  [ RunTime:0.0002s ]
+SQL: select count(*) from think_map_status where status='YES' and ptype like 'other_news'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.230793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.230830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2018-10-01T01:06:36+08:00 ] 127.0.0.1 /MKSYS/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2018-10-01T01:08:27+08:00 ] 127.0.0.1 /MKSYS/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-10-01T10:06:34+08:00 ] 127.0.0.1 /MKSYS/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008765s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.017973s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.018024s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.208455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.208498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
